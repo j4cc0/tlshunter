@@ -17,6 +17,7 @@ which hosts are capable of post quantum secure communication and which are not.
 
 ## Example
 
+```
  $ ~/tlshunter/tlshunter.sh ~/tlshunter/tlshunter-net.conf ~/tlshunter/tlshunter-port.conf
 ┌──────────────────────────────────────┐
 │░▀█▀░█░░░█▀▀░█░█░█░█░█▀█░▀█▀░█▀▀░█▀▄░░│
@@ -90,6 +91,8 @@ which hosts are capable of post quantum secure communication and which are not.
 ╰────────────┴────────────────┴───────╯
 [+] (PQ) Key Encapsulation Mechanisms:
 [+] Fri Nov  6 05:37:47 PM CET 2026 -- tlshunter done.
+```
+
 
 ----
 
