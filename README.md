@@ -6,12 +6,12 @@ Wrapper around nmap and testssl to scan for SSL/TLS details and store them in a 
 
 ## Usage
 
-tlshunter [-n|--no-color] [-h|--help] <file-containing-hostnames> <file-containing-port-numbers> [output-directory]
+`tlshunter [-n|--no-color] [-h|--help] <file-containing-hostnames> <file-containing-port-numbers> [output-directory]`
 
-Scan all hosts from file-containing-hostnames on ports as specified in file-containing-port-numbers
-for TLS details using nmap and testssl.sh. Resulting output is stored in output-directory.
+Scan all hosts from `file-containing-hostnames` on ports as specified in `file-containing-port-numbers`
+for TLS details using [`nmap`](https://nmap.org/) and [`testssl.sh`](https://testssl.sh/). Resulting output is stored in `output-directory`.
 
-The CSV file from testssl is used to build a sqlite3 database, containing all TLS details.
+The CSV file from testssl is used to build a [sqlite3](https://www.sqlite.org/) database, containing all TLS details.
 Final result is an overview of TLS versions used per host,ip and port-number, as well as indicators for
 which hosts are capable of post quantum secure communication and which are not.
 
